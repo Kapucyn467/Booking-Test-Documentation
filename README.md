@@ -1,27 +1,56 @@
-#  Booking.com – Dokumentacja Testowa
+Booking.com – Dokumentacja Testowa
 
-## Opis projektu
+Opis projektu
 
-Projekt został wykonany samodzielnie w celu rozwijania umiejętności z zakresu testowania manualnego.
+Projekt został wykonany samodzielnie w celu rozwijania umiejętności z zakresu testowania manualnego aplikacji webowych.
 
-Zakres projektu obejmuje przygotowanie dokumentacji testowej dla wyszukiwarki serwisu Booking.com.
+Celem projektu było przygotowanie kompletnej dokumentacji testowej oraz przeprowadzenie testów funkcjonalnych wyszukiwarki serwisu Booking.com.
 
-## Zakres prac
+Zakres projektu
 
-- Przygotowanie planu testów
-- Opracowanie przypadków testowych
-- Wykonanie testów manualnych
-- Sporządzenie raportu z testów
+Testowany obszar:
 
-## Narzędzia
+* wyszukiwanie obiektów noclegowych,
+* wybór lokalizacji,
+* wybór dat pobytu,
+* wybór liczby gości,
+* działanie filtrów wyszukiwania.
 
-- TestLink
-- Jira
-- JMeter
-- BrowserStack
+Zakres prac
 
-## Zawartość repozytorium
+W ramach projektu wykonano:
 
-- Test Plan
-- Test Cases
-- Test Report
+* przygotowanie Test Planu,
+* opracowanie Test Case’ów,
+* wykonanie testów manualnych,
+* dokumentowanie znalezionych problemów,
+* przygotowanie Test Reportu.
+
+Rodzaje wykonanych testów
+
+* Testy funkcjonalne,
+* Testy regresji,
+* Testy UI,
+* Testy eksploracyjne.
+
+Narzędzia
+
+* TestLink – zarządzanie przypadkami testowymi,
+* Jira – raportowanie i śledzenie błędów,
+* JMeter – podstawowe testy wydajnościowe,
+* BrowserStack – testowanie na różnych przeglądarkach i urządzeniach.
+
+Zawartość repozytorium
+
+📁 Test Plan
+📁 Test Cases
+📁 Test Report
+
+Cel projektu
+
+Projekt miał na celu praktyczne zastosowanie wiedzy z zakresu:
+
+* tworzenia dokumentacji testowej,
+* projektowania przypadków testowych,
+* raportowania błędów,
+* organizacji procesu testowego.
