@@ -1,0 +1,92 @@
+# ✅ Test Cases – Booking.com
+
+## Informacje o projekcie
+
+*Projekt:* Booking.com – Wyszukiwarka
+
+*Moduł:* Wyszukiwarka
+
+*Typ testów:* Funkcjonalne
+
+*Narzędzie:* TestLink
+
+---
+
+# TC-001 – Weryfikacja walidacji wyszukiwarki
+
+## Informacje
+
+| Pole | Wartość |
+|------|----------|
+| *ID* | TC-001 |
+| *Priorytet* | Średni |
+| *Typ testu* | Funkcjonalny |
+| *Status* | Wykonany |
+| *Wynik* | ✅ Pozytywny |
+
+---
+
+## Warunki wstępne
+
+- Użytkownik znajduje się na stronie głównej Booking.com.
+
+---
+
+## Kroki testowe
+
+| Krok | Akcja | Oczekiwany rezultat |
+|------|-------|---------------------|
+| 1 | Otwórz stronę Booking.com. | Strona główna zostaje poprawnie wyświetlona. |
+| 2 | Usuń wartość z pola *„Dokąd się wybierasz?”* i kliknij przycisk *„Szukaj”*. | Wyświetlony zostaje komunikat walidacyjny informujący o konieczności wskazania celu podróży. |
+| 3 | Wprowadź wartość *„Gdańsk”* do pola *„Dokąd się wybierasz?”* i kliknij *„Szukaj”*. | Wyświetlona zostaje strona z wynikami wyszukiwania dla Gdańska. Widoczna jest liczba znalezionych obiektów oraz panel wyszukiwania. |
+| 4 | Kliknij pole *„Data zameldowania”*. | Wyświetla się kalendarz. Daty wcześniejsze niż bieżąca są niedostępne do wyboru. |
+| 5 | Kliknij pole *„Data wymeldowania”*. | Wyświetla się kalendarz umożliwiający wybór poprawnej daty wymeldowania. |
+| 6 | Kliknij przycisk *„Szukaj”* bez wyboru dat. | Strona pozostaje na formularzu. Pole daty zostaje wyróżnione, a użytkownik zostaje poinformowany o konieczności wyboru terminu pobytu. |
+
+---
+
+# TC-002 – Weryfikacja logiki wyszukiwarki
+
+## Informacje
+
+| Pole | Wartość |
+|------|----------|
+| *ID* | TC-002 |
+| *Priorytet* | Średni |
+| *Typ testu* | Funkcjonalny |
+| *Status* | Wykonany |
+| *Wynik* | ✅ Pozytywny |
+
+---
+
+## Warunki wstępne
+
+- Użytkownik znajduje się na stronie głównej Booking.com.
+
+---
+
+## Kroki testowe
+
+| Krok | Akcja | Oczekiwany rezultat |
+|------|-------|---------------------|
+| 1 | Otwórz stronę Booking.com. | Strona główna zostaje poprawnie wyświetlona. |
+| 2 | Kliknij pole *„Dokąd się wybierasz?”*. | Wyświetla się lista popularnych lokalizacji i podpowiedzi. |
+| 3 | Wprowadź wartość *„Warszawa”*. | Na pierwszej pozycji listy podpowiedzi wyświetla się lokalizacja „Warszawa”. |
+| 4 | Kliknij pole wyboru dat. | Wyświetla się kalendarz z dostępnymi terminami. |
+| 5 | Wybierz poprawny zakres dat. | Wybrany zakres zostaje poprawnie wyświetlony w formularzu. |
+| 6 | Kliknij pole wyboru liczby gości. | Wyświetla się panel umożliwiający wybór liczby dorosłych, dzieci oraz pokoi. |
+| 7 | Zwiększ liczbę dzieci o 1. | Wyświetlone zostaje dodatkowe pole umożliwiające wybór wieku dziecka. |
+
+---
+
+# Podsumowanie
+
+W ramach projektu zaprojektowano i wykonano przypadki testowe weryfikujące:
+
+- poprawność działania wyszukiwarki,
+- walidację wymaganych pól,
+- logikę wyszukiwania,
+- wybór dat,
+- wybór liczby gości.
+
+Dokument został przygotowany samodzielnie w ramach rozwijania umiejętności z zakresu testowania manualnego.
