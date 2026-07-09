@@ -33,12 +33,12 @@ Rodzaje wykonanych testów
 * Testy UI,
 * Testy eksploracyjne.
 
-Narzędzia
+## Narzędzia
 
-* TestLink – zarządzanie przypadkami testowymi,
+* TestLink – tworzenie i zarządzanie przypadkami testowymi,
 * Jira – raportowanie i śledzenie błędów,
-* JMeter – podstawowe testy wydajnościowe,
-* BrowserStack – testowanie na różnych przeglądarkach i urządzeniach.
+* Postman – podstawowe testy API,
+* GitHub – przechowywanie dokumentacji projektowej.
 
 Zawartość repozytorium
 
